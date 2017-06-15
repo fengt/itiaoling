@@ -1,0 +1,23 @@
+
+@import '~breakpoint-sass/stylesheets/_breakpoint.scss';
+@import '~mappy-breakpoints/mappy-breakpoints';
+
+// $mobile-small: 240px;
+// $mobile-large: 320px;
+// $tablet-small: 480px;
+$mobile: 768px;
+$tablet: 992px;
+$screen: 1200px;
+
+$xs: $mobile;
+$sm: $mobile+1 $tablet; 
+$md: $tablet+1 $screen;
+$lg: $screen+1;
+/**
+$breakpoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+)**/
+
