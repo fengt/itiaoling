@@ -72,7 +72,7 @@ export default {
   width: 100%;
   top: 60px;
   float: right;
-  transition: max-height 0.5s ease-out;
+  transition: max-height 0.5s linear;
   max-height: 0;
   overflow: hidden; 
   li {
@@ -85,6 +85,8 @@ export default {
     }
   }
   a{
+    display: block;
+    width: 100%;
     color: #333 
   }
 }
