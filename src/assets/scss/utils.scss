@@ -1,4 +1,6 @@
 
+@import "./break";
+
 @mixin clearfix() {
     &:before,
     &:after {
@@ -6,4 +8,23 @@
       display: table;
       clear: both;
     }
+}
+
+.hidden-sm{
+  display: none;
+  @include breakpoint($md){
+    display: block;
+  }
+  @include breakpoint($lg){
+    display: block;
+  }
+}
+.show-sm{
+  display: block;
+  @include breakpoint($md){
+    display: none;
+  }
+  @include breakpoint($lg){
+    display: none;
+  }
 }
