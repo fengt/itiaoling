@@ -63,25 +63,30 @@ export default {
   line-height: 60px;
 }
 .nav-sm-op{
- float: right;
+  float: right;
 }
 .nav-sm{
- position: fixed;
- background: #f0f8ff;
- color: #666;
- width: 100%;
- top: 60px;
- float: right;
- transition: max-height 0.5s ease-out;
- max-height: 0;
- overflow: hidden; 
- li {
-   display: block;
-   margin: 10px;
- }
- a{
-   color: #333 
- }
+  position: fixed;
+  background: #f8f8f8;
+  color: #65697f;
+  width: 100%;
+  top: 60px;
+  float: right;
+  transition: max-height 0.5s ease-out;
+  max-height: 0;
+  overflow: hidden; 
+  li {
+    padding-left: 40px; 
+    text-align: left;
+    display: block;
+    // border-bottom: 1px solid #e1e2e4;
+    &:hover {
+      background: #e1e2e4;
+    }
+  }
+  a{
+    color: #333 
+  }
 }
 
 .nav{
@@ -98,8 +103,9 @@ ul {
 }
 
 li {
+  padding: 0 10px;
   display: inline-block;
-  margin: 0 10px;
+  margin: 0;
 }
 
 a {
