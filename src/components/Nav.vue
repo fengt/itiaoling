@@ -17,6 +17,7 @@
           <a href="#/test">关于我们</a>
         </li>
       </ul>
+
       <ul class="nav-sm show-sm" :class="{toggle: isToggle}">
         <li>    
           <a href="#/test">解决方案</a>
@@ -28,8 +29,18 @@
           <a href="#/test">关于我们</a>
         </li>
       </ul>
+      
+      <ul class="nav-left show-sm">
+        <li>    
+          <a class="logo-link" href="#/">
+            <img class="logo-img" src="../assets/images/logo.png">
+            <span>跳羚科技</span>
+          </a>
+        </li>
  
+      </ul> 
       <ul class="nav-sm-op show-sm">
+
         <li>    
           <a class="humburg-link" href="#" @click="toggle">
             <template v-if="changeBar">
@@ -109,6 +120,9 @@ export default {
     color: #ea5413;
   }
 }
+.nav-left{
+  float: left;
+}
 .nav-sm-op{
   float: right;
 }
@@ -151,6 +165,7 @@ ul {
   padding: 0;
 }
 a {
+  font-size: 18px;
   color: #fff;
   &:hover{
     background-color: transparent;
@@ -158,7 +173,7 @@ a {
   }
 }
 li {
-  padding: 0 10px;
+  padding: 0 20px;
   display: inline-block;
   margin: 0;
 }
