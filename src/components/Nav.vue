@@ -1,7 +1,12 @@
 <template>
-  <div class="navbar">
+  <div class="navbar" :class="{'back-change': changeBar}">
     <div class="container">
       <ul class="nav hidden-sm">
+        <li>    
+          <a class="logo-link" href="#/">
+            <img class="logo-img" src="../assets/images/logo.png">
+          </a>
+        </li>
         <li>    
           <a href="#/test">解决方案</a>
         </li>
@@ -26,8 +31,13 @@
  
       <ul class="nav-sm-op show-sm">
         <li>    
-          <a href="#" @click="toggle">
-            <img class="hum" src="../assets/images/hamburg.svg" />
+          <a class="humburg-link" href="#" @click="toggle">
+            <template v-if="changeBar">
+              <img class="hum" src="../assets/images/hamburg-orange.svg" />
+            </template>
+            <template v-else>
+              <img class="hum" src="../assets/images/hamburg.svg" />
+            </template>
           </a>
         </li>
       </ul>
@@ -41,14 +51,34 @@ export default {
   name: 'nav',
   data () {
     return {
+      changeBar: false,
       isToggle: false,
       msg: 'Welcome to Your Vue.js App'
     }
   },
+  computed: {
+  },
+  created () {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  destroyed () {
+    window.removeEventListener('scroll', this.handleScroll)
+  },
   methods: {
     toggle () {
       console.log(`fff`)
+      this.changeBar = true
       this.isToggle = !this.isToggle
+    },
+    handleScroll () {
+      this.isToggle = false
+      const sy = window.scrollY
+      console.log(`${window.scrollY}`)
+      if (sy > 20) {
+        this.changeBar = true
+      } else {
+        this.changeBar = false
+      }
     }
   }
 }
@@ -58,9 +88,26 @@ export default {
 <style lang="scss">
 @import "../assets/scss/grid.scss";
 .navbar{
-  background: #ea5413;
+  top: 0;
+  width: 100%;
+  position:fixed;
+  background: transparent;
   height: 60px;
   line-height: 60px;
+  z-index: 10;
+}
+.back-change{
+  background: #fff;
+  border-bottom: #e3e3e3 solid 1px;
+  a {
+    color: #65697f;
+    &:hover {
+      color: #ea5413;
+    }
+  }
+  .hum{
+    color: #ea5413;
+  }
 }
 .nav-sm-op{
   float: right;
@@ -92,7 +139,7 @@ export default {
 }
 
 .nav{
- float: right;
+  text-align: left;
 }
 .toggle{
   max-height: 500px;
@@ -103,24 +150,39 @@ ul {
   list-style-type: none;
   padding: 0;
 }
-
+a {
+  color: #fff;
+  &:hover{
+    background-color: transparent;
+    color: #e1e2e4;
+  }
+}
 li {
   padding: 0 10px;
   display: inline-block;
   margin: 0;
 }
-
-a {
-  color: #fff;
-  text-decoration: none;
+.logo-link{
+  display: block;
+  position: relative;
 }
-</style>
-<style lang="scss">
+.logo-img{
+  display: inline-block;
+  vertical-align: middle;
+  width: 45px;
+  height: 45px;
+}
 .hum{
   display: inline-block;
   vertical-align: middle;
-  width: 30px;
+  height: 60px;
+  width: 24px;
 }
-
+.humburg-link{
+  position: relative;
+  display: block;
+  line-height: 60px;
+  height: 60px;
+}
 </style>
 

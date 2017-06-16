@@ -27,4 +27,7 @@ a {
   text-decoration: none;
 }
 
+* {
+  border-box: box-sizing;
+}
 </style>
