@@ -4,8 +4,8 @@
       <Nav/> 
       <div class="container">
         <div class="landing">
-          <h1 class="slogn">物流仓储互联网</h1>
-          <h2 class="slogn-desc">快递，快运，仓储，加速企业发展</h2>
+          <h1 class="slogn">专注物流仓储互联网</h1>
+          <h2 class="slogn-desc">快递，快运，仓储，IT解决方案，加速企业效率，助力企业发展</h2>
         </div>
       </div>
    
@@ -25,10 +25,12 @@ export default {
 </script>
 <style lang="scss">
 .slogn{
+  padding: 0 20px;
   color: #fff; 
   font-weight: 400;
 }
 .slogn-desc{
+  padding: 0 20px;
   color: #fff;
   font-weight: 400;
 }
