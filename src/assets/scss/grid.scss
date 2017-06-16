@@ -11,6 +11,9 @@ $susy: (
   output: float,
   gutter-position: inside,
 );
+
+@include border-box-sizing;
+
 .row{
   margin: 15px 0;
   @include container;
@@ -46,6 +49,37 @@ $susy: (
   }
  
 }
+
+.col-sm-6{
+  float: left;
+  @include breakpoint($sm){
+    @include span(6 of 12)
+  }
+}
+
+.col-md-6{
+  float: left;
+  @include breakpoint($md){
+    @include span(6 of 12)
+  }
+
+  @include breakpoint($lg){
+    @include span(6 of 12)
+  }
+}
+
+.col-xs-12{
+  float: left;
+  @include breakpoint($xs){
+    @include span(12 of 12)
+  }
+
+  @include breakpoint($lg){
+    @include span(6 of 12)
+  }
+}
+
+
 .container{
   @include clearfix;
   display: block;
@@ -66,4 +100,5 @@ $susy: (
   position: relative;  
   width: 100%
 }
+
 

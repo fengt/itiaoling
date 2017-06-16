@@ -10,12 +10,17 @@
       </div>
    
     </div>
+    <FootWrap/>
  </div>
 </template>
 
 <script>
+import FootWrap from './FootWrap'
 export default {
   name: 'home',
+  components: {
+    FootWrap
+  },
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
