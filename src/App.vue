@@ -28,6 +28,6 @@ a {
 }
 
 * {
-  border-box: box-sizing;
+  box-sizing: border-box;
 }
 </style>

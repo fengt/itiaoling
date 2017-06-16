@@ -9,15 +9,15 @@ $mobile: 768px;
 $tablet: 992px;
 $screen: 1200px;
 
-$xs: $mobile;
+$xs: 0 $mobile;
 $sm: $mobile+1 $tablet; 
 $md: $tablet+1 $screen;
 $lg: $screen+1;
-/**
+
 $breakpoints: (
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px
-)**/
+  xs: $xs,
+  sm: $sm,
+  md: $md,
+  lg: $lg
+)
 

@@ -8,6 +8,20 @@
           <h2 class="slogn-desc">快递，快运，仓储，IT解决方案，加速企业效率，助力企业发展</h2>
         </div>
       </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            a
+          </div>
+          <div class="col-md-4">
+            b
+          </div>
+          <div class="col-md-4">
+            c
+          </div>
+ 
+        </div>
+      </div>
    
     </div>
     <FootWrap/>
