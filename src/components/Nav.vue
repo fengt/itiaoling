@@ -76,15 +76,15 @@ export default {
     window.removeEventListener('scroll', this.handleScroll)
   },
   methods: {
-    toggle () {
-      console.log(`fff`)
+    toggle (e) {
+      e.preventDefault()
       this.changeBar = true
       this.isToggle = !this.isToggle
     },
     handleScroll () {
       this.isToggle = false
       const sy = window.scrollY
-      console.log(`${window.scrollY}`)
+      // console.log(`${window.scrollY}`)
       if (sy > 20) {
         this.changeBar = true
       } else {
