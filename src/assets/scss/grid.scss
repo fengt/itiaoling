@@ -17,51 +17,39 @@ $susy: (
 .row{
   @include clearfix;
 }
+@for $i from 1 through 12 {
+  @include breakpoint(1){
+    .col-xs-#{$i}{ 
+      float: left;
+      @include span($i of 12);
+    }
+  }
+}
+@for $i from 1 through 12 {
+  @include breakpoint($mobile){
+    .col-sm-#{$i}{ 
+      float: left;
+      @include span($i of 12);
+    }
+  }
+
+}
 
 @for $i from 1 through 12 {
-  .col-lg-#{$i}{ 
-    float: left;
-    box-sizing:border-box;
-    @include span($i of 12);
-    @include breakpoint($md){
-      @include span(12 of 12)
-    }
-    @include breakpoint($sm){
-      @include span(12 of 12)
-    }
-    @include breakpoint($xs){
-      @include span(12 of 12)
+  @include breakpoint($tablet){
+    .col-md-#{$i}{ 
+      float: left;
+      @include span($i of 12);
     }
   }
+
 }
 @for $i from 1 through 12 {
-  .col-md-#{$i}{ 
-		float: left;
-		box-sizing:border-box;
-		@include span($i of 12);
-    @include breakpoint($sm){
-      @include span(12 of 12);
+  @include breakpoint($screen){
+    .col-lg-#{$i}{ 
+      float: left;
+      @include span($i of 12);
     }
-    @include breakpoint($xs){
-      @include span(12 of 12);
-    }
-  }
-}
-@for $i from 1 through 12 {
-  .col-sm-#{$i}{ 
-    float: left;
-    box-sizing:border-box;
-    @include span($i of 12);
-    @include breakpoint($xs){
-      @include span(12 of 12);
-    }
-  }
-}
-@for $i from 1 through 12 {
-  .col-xs-#{$i}{ 
-    float: left;
-    box-sizing:border-box;
-    @include span($i of 12);
   }
 }
 
