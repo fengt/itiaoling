@@ -20,6 +20,16 @@ $susy: (
   @include clearfix;
 }
 $breakpoints: $grid-breakpoints;
+@for $i from 1 through 12 {
+  @include breakpoint(0){
+    .col-xs-#{$i}{ 
+      float: left;
+      @include span($i of 12);
+    }
+  }
+}
+
+
 @each $breakpoint in map-keys($grid-breakpoints) {
   $infix: breakpoint-infix($breakpoint, $breakpoints);
   @include media-breakpoint-up($breakpoint, $breakpoints) {
