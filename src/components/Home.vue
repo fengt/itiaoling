@@ -22,19 +22,46 @@
  
         </div>
       </div>
-   
+
     </div>
+
+    <div class="customer-wraper">
+	    <div class="container">
+	      <div class="customer-header">
+	      	<h1>客户案例</h1>
+	      	<p class="desc"></p>
+	      </div>
+	      <div class="row customer-list-all">
+	      	<div class="col-md-4 col-xs-6">
+	      		<img class="customer-item-img" src="../assets/images/customers/vancl.jpg" alt="">
+	      	</div>
+	      	<div class="col-md-4 col-xs-6">
+	      		<img class="customer-item-img" src="../assets/images/customers/rufengda.jpg" alt="">
+	      	</div>
+	      	<div class="col-md-4 col-xs-6">
+	      		<img class="customer-item-img" src="../assets/images/customers/zhongce.jpg" alt="">
+	      	</div>
+	      	<div class="col-md-4 col-xs-6">
+	      		<img class="customer-item-img" src="../assets/images/customers/vancl.jpg" alt="">
+	      	</div>
+	      	<div class="col-md-4 col-xs-6">
+	      		<img class="customer-item-img" src="../assets/images/customers/tiandihuayu.gif" alt="">
+	      	</div>
+	      	<div class="col-md-4 col-xs-6">
+	      		<img class="customer-item-img" src="../assets/images/customers/wjk.jpg" alt="">
+	      	</div>
+	      </div>
+	     </div>
+     </div>
+
+
     <FootWrap/>
  </div>
 </template>
 
 <script>
-import FootWrap from './FootWrap'
 export default {
   name: 'home',
-  components: {
-    FootWrap
-  },
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
@@ -47,6 +74,7 @@ export default {
 @import "../assets/scss/grid.scss";
 </style>
 <style lang="scss">
+@import "../assets/scss/break.scss";
 .slogn{
   padding: 0 20px;
   color: #fff; 
@@ -63,5 +91,21 @@ export default {
 .head-wraper{
   min-height: 700px;
   background-image: url(../assets/images/landing.png), linear-gradient(120deg, #ea5413, #F39800);
+}
+
+
+.customer-wraper{
+	min-height: 500px;
+}
+.customer-list-all{
+	width: 90%;
+	margin: 0 auto;
+}
+.customer-item-img{
+	margin: 20px auto;
+	width: 120px;
+	@include breakpoint($sm){
+	  width: 200px;
+	}
 }
 </style>

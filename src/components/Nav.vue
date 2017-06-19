@@ -8,25 +8,25 @@
           </a>
         </li>
         <li>    
-          <a href="#/test">解决方案</a>
-        </li>
-        <li>    
           <a href="#/test">产品中心</a>
         </li>
         <li>    
-          <a href="#/test">关于我们</a>
+          <a href="#/test">解决方案</a>
+        </li>
+        <li>    
+          <a href="#/about">关于我们</a>
         </li>
       </ul>
 
       <ul class="nav-sm visible-sm visible-xs" :class="{toggle: isToggle}">
         <li>    
-          <a href="#/test">解决方案</a>
-        </li>
-        <li>    
           <a href="#/test">产品中心</a>
         </li>
         <li>    
-          <a href="#/test">关于我们</a>
+          <a href="#/test">解决方案</a>
+        </li>
+        <li>    
+          <a href="#/about">关于我们</a>
         </li>
       </ul>
       
