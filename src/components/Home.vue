@@ -10,7 +10,7 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-8">
             a
           </div>
           <div class="col-md-4">
@@ -42,6 +42,10 @@ export default {
   }
 }
 </script>
+<style lang="scss">
+@import "../assets/scss/app.scss";
+@import "../assets/scss/grid.scss";
+</style>
 <style lang="scss">
 .slogn{
   padding: 0 20px;

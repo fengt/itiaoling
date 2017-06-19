@@ -1,7 +1,7 @@
 <template>
   <div class="navbar" :class="{'back-change': changeBar}">
     <div class="container">
-      <ul class="nav hidden-sm">
+      <ul class="nav hidden-sm hidden-xs">
         <li>    
           <a class="logo-link" href="#/">
             <img class="logo-img" src="../assets/images/logo.png">
@@ -18,7 +18,7 @@
         </li>
       </ul>
 
-      <ul class="nav-sm show-sm" :class="{toggle: isToggle}">
+      <ul class="nav-sm visible-sm visible-xs" :class="{toggle: isToggle}">
         <li>    
           <a href="#/test">解决方案</a>
         </li>
@@ -30,7 +30,7 @@
         </li>
       </ul>
       
-      <ul class="nav-left show-sm">
+      <ul class="nav-left visible-sm visible-xs">
         <li>    
           <a class="logo-link" href="#/">
             <img class="logo-img" src="../assets/images/logo.png">
@@ -39,7 +39,7 @@
         </li>
  
       </ul> 
-      <ul class="nav-sm-op show-sm">
+      <ul class="nav-sm-op visible-sm visible-xs">
 
         <li>    
           <a class="humburg-link" href="#" @click="toggle">
@@ -97,7 +97,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
-@import "../assets/scss/grid.scss";
+@import "../assets/scss/app.scss";
+</style>
+<style lang="scss">
 .navbar{
   top: 0;
   width: 100%;
