@@ -1,18 +1,14 @@
 <template>
   <div class="about">
 
-    <div class="head-wraper">
+    <div class="about-header">
       <Nav/> 
-
-      <div class="container">
-        <!-- <h1>跳羚科技</h1> -->
-      </div>
 
     </div>
 
 
 
-    <div class="content">
+    <div class="about-content">
       <div class="container">
         <!-- <img src="../assets/images/logo/logo.png" alt="tiaoling logo"> -->
         <h1>跳羚科技</h1>
@@ -47,19 +43,17 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-.head-wraper{
-  height: 460px;
-  background-image: url(../assets/images/about/index_pic.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+@import "../assets/scss/break.scss";
+.about-header{
+  min-height: 460px;
+  background-color: #FFA500;
 }
 
 
-.content{
-  height: 400px;
-  margin: 50px auto;
+.about-content{
+  margin: 20px auto;
   .container p{
-    width: 60%;
+    width: 80%;
     margin: 20px auto;
     text-indent: 20px;
     text-align: left;
