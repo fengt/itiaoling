@@ -4,6 +4,10 @@
     <div class="about-header">
       <Nav/> 
 
+      <div class="container">
+        <h1>最懂物流供应链的公司<br>最具互联网化的IT公司</h1>
+      </div>
+
     </div>
 
 
@@ -11,6 +15,9 @@
     <div class="about-content">
       <div class="container">
         <!-- <img src="../assets/images/logo/logo.png" alt="tiaoling logo"> -->
+
+        <img src="../assets/images/about/about_tiaoling_pics.png" alt="tiaoling">
+
         <h1>跳羚科技</h1>
         <p class="desc">成都跳羚科技有限公司是一家拥有成熟IT系统，可为O2O、快运、快递、仓储、供应链等业务领域提供全面解决方案的科技公司，是中信产业基金控股公司。公司核心技术团队成员经验丰富，参与物流行业的技术改造均逾10年；同时又有一支曾在O2O行业深耕、立志于为传统企业提供互联网转型解决方案的专业队伍，是国内为数不多的兼具传统物流和互联网思维的科技公司。</p>
       </div>
@@ -46,7 +53,11 @@ export default {
 @import "../assets/scss/break.scss";
 .about-header{
   min-height: 460px;
-  background-color: #FFA500;
+  background-color: #1f1b43;
+  h1{
+    margin-top: 160px;
+    color: #f8f8f8;
+  }
 }
 
 
