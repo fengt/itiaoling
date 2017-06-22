@@ -4,7 +4,12 @@
       <ul class="nav hidden-sm hidden-xs">
         <li>    
           <a class="logo-link" href="#/">
-            <img class="logo-img" src="../assets/images/logo.png">
+            <template v-if="changeBar">
+              <img class="logo-img" src="../assets/images/logo/logo-orange.png">
+            </template>
+            <template v-else>
+              <img class="logo-img" src="../assets/images/logo/logo-white.png">
+            </template>
           </a>
         </li>
         <li>    
@@ -33,7 +38,12 @@
       <ul class="nav-left visible-sm visible-xs">
         <li>    
           <a class="logo-link" href="#/">
-            <img class="logo-img" src="../assets/images/logo.png">
+            <template v-if="changeBar">
+              <img class="logo-img" src="../assets/images/logo/logo-orange.png">
+            </template>
+            <template v-else>
+              <img class="logo-img" src="../assets/images/logo/logo-white.png">
+            </template>
             <span>跳羚科技</span>
           </a>
         </li>
@@ -44,10 +54,10 @@
         <li>    
           <a class="humburg-link" href="#" @click="toggle">
             <template v-if="changeBar">
-              <img class="hum" src="../assets/images/hamburg-orange.svg" />
+              <img class="hum" src="../assets/images/logo/hamburg-orange.svg" />
             </template>
             <template v-else>
-              <img class="hum" src="../assets/images/hamburg.svg" />
+              <img class="hum" src="../assets/images/logo/hamburg.svg" />
             </template>
           </a>
         </li>
