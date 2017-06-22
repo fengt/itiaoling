@@ -11,7 +11,7 @@
           <a href="#/test">产品中心</a>
         </li>
         <li>    
-          <a href="#/test">解决方案</a>
+          <a href="#/solution">解决方案</a>
         </li>
         <li>    
           <a href="#/about">关于我们</a>
@@ -23,7 +23,7 @@
           <a href="#/test">产品中心</a>
         </li>
         <li>    
-          <a href="#/test">解决方案</a>
+          <a href="#/solution">解决方案</a>
         </li>
         <li>    
           <a href="#/about">关于我们</a>

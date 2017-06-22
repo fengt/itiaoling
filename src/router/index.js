@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import Nav from '@/components/Nav'
 import FootWrap from '@/components/FootWrap'
+import Solution from '@/components/Solution'
 import About from '@/components/About'
 
 Vue.use(Router)
@@ -14,6 +15,11 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Home
+    },
+    {
+      path: '/solution',
+      name: 'Solution',
+      component: Solution
     },
     {
       path: '/about',
