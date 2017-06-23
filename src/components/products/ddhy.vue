@@ -30,15 +30,15 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4 col-md-4">
-            <img src="../../assets/images/products/safe.png" alt="" class="feature-icon">
+            <img src="../../assets/images/products/common/safe.png" alt="" class="feature-icon">
             <h2>安全认证</h2>
           </div>
           <div class="col-sm-4 col-md-4">
-            <img src="../../assets/images/products/convenient.png" alt="" class="feature-icon">
+            <img src="../../assets/images/products/common/convenient.png" alt="" class="feature-icon">
             <h2>流程简单</h2>
           </div>
           <div class="col-sm-4 col-md-4">
-            <img src="../../assets/images/products/benefit.png" alt="" class="feature-icon">
+            <img src="../../assets/images/products/common/benefit.png" alt="" class="feature-icon">
             <h2>价格实惠</h2>
           </div>
         </div>
