@@ -8,7 +8,7 @@
           <h2 class="slogn-desc">快递，快运，仓储，IT解决方案，加速企业效率，助力企业发展</h2>
         </div>
       </div>
-      
+
     </div>
 
     <div class="customer-wraper">
@@ -77,6 +77,8 @@ export default {
 .head-wraper{
   min-height: 700px;
   background-image: url(../assets/images/landing.png), linear-gradient(120deg, #ea5413, #F39800);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 

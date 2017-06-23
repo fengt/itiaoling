@@ -5,6 +5,7 @@ import Nav from '@/components/Nav'
 import FootWrap from '@/components/FootWrap'
 import Solution from '@/components/Solution'
 import About from '@/components/About'
+import ddhy from '@/components/products/ddhy'
 
 Vue.use(Router)
 Vue.component('Nav', Nav)
@@ -15,6 +16,11 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Home
+    },
+    {
+      path: '/ddhy',
+      name: 'ddhy',
+      component: ddhy
     },
     {
       path: '/solution',
