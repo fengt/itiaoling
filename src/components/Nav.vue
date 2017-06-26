@@ -13,7 +13,7 @@
           </a>
         </li>
         <li>    
-          <a href="#/test">产品中心</a>
+          <a href="#/ddhy">产品中心</a>
         </li>
         <li>    
           <a href="#/solution">解决方案</a>
@@ -25,7 +25,7 @@
 
       <ul class="nav-sm visible-sm visible-xs" :class="{toggle: isToggle}">
         <li>    
-          <a href="#/test">产品中心</a>
+          <a href="#/ddhy">产品中心</a>
         </li>
         <li>    
           <a href="#/solution">解决方案</a>
