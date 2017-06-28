@@ -12,8 +12,17 @@
             </template>
           </a>
         </li>
-        <li>    
-          <a href="#/ddhy">产品中心</a>
+        <li class="products">    
+          <a href="javascript:void(0);">产品中心</a>
+          <div class="sub-product">
+            <a class="product-item" href="#/feiyu"><img src="../assets/images/products/logo/feiyu_active.png" alt="飞鱼配送"><h2>飞鱼配送</h2></a>
+            <a class="product-item" href="#/fengyun"><img src="../assets/images/products/logo/fengyun_active.png" alt="风云系统"><h2>风云系统</h2></a>
+            <a class="product-item" href="#/ddhy"><img src="../assets/images/products/logo/dudu_active.png" alt="嘟嘟好运"><h2>嘟嘟好运</h2></a>
+            <a class="product-item" href="#/huashifu"><img src="../assets/images/products/logo/huashifu_active.png" alt="华师傅"><h2>华师傅</h2></a>
+            <a class="product-item" href="https://wms.itiaoling.com" target="_blank"><img src="../assets/images/products/logo/wms_active.png" alt="WMS"><h2>WMS</h2></a>
+            <a class="product-item" href="#/xingxiao"><img src="../assets/images/products/logo/xingxiao_active.png" alt="行销"><h2>行销</h2></a>
+            <a class="product-item" href="#/jisong"><img src="../assets/images/products/logo/jisong_active.png" alt="极送"><h2>极送</h2></a>
+          </div>
         </li>
         <li>    
           <a href="#/solution">解决方案</a>
@@ -211,5 +220,44 @@ li {
   line-height: 60px;
   height: 60px;
 }
+
+
+/*悬浮下拉菜单*/
+.products{
+  position: relative;
+  &:hover .sub-product{
+    display: block;
+  }
+  .sub-product{
+    position: absolute;
+    display: none;
+    width: 680px;
+    min-width: 160px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 12px;
+    border: 1px solid rgba(0,0,0,.15);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    left: -50px;
+    left: calc(-50px);
+    text-align: center;
+
+    .product-item {
+      padding: 20px;
+      color: #65697f;
+      display: inline-block;
+      h2{
+        font-size: 16px;
+        margin: 2px 0 0;
+      }
+      img{
+        width: 40px;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+
 </style>
 
