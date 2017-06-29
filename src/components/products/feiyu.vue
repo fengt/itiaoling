@@ -59,7 +59,7 @@
               </div>
             </div>
             <div class="col-sx-12 col-sm-6 col-md-6 feature-intro-image">
-              <img src="../../assets/images/products/feiyu/feiyu_show.png">
+              <img src="../../assets/images/products/feiyu/security_pic.png">
             </div>
           </div>
         </div>
@@ -75,7 +75,7 @@
               </div>
             </div>
             <div class="col-sx-12 col-sm-6 col-md-6 feature-intro-image">
-              <img src="../../assets/images/products/feiyu/feiyu_show.png">
+              <img src="../../assets/images/products/feiyu/convenient_pic.png">
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@
               </div>
             </div>
             <div class="col-sx-12 col-sm-6 col-md-6 feature-intro-image">
-              <img src="../../assets/images/products/feiyu/feiyu_show.png">
+              <img src="../../assets/images/products/feiyu/transparent_pic.png">
             </div>
           </div>
         </div>
