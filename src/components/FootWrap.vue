@@ -53,21 +53,21 @@
           <div class="row links">
             <div class="link-group">
               <div class="link-header">产品中心</div>
-              <a href="#">飞鱼配送</a>
-              <a href="#">风云系统</a>
-              <a href="#">嘟嘟好运</a>
-              <a href="#">华师傅</a>
-              <a href="#">WMS</a>
-              <a href="#">行销</a>
-              <a href="#">极送</a>
+              <a href="#/fengyun">风云系统</a>
+              <a href="#/feiyu">飞鱼配送</a>
+              <a href="#/ddhy">嘟嘟好运</a>
+              <a href="#/huashifu">华师傅</a>
+              <a href="https://wms.itiaoling.com" target="_blank">WMS</a>
+              <a href="#/xingxiao">行销</a>
+              <a href="#/jisong">极送</a>
             </div>
             <div class="link-group">
               <div class="link-header">解决方案</div>
-              <a href="#">仓配一体</a>
-              <a href="#">快递</a>
-              <a href="#">快运</a>
-              <a href="#">O2O</a>
-              <a href="#">移动</a>
+              <a href="#/solution">仓配一体</a>
+              <a href="#/solution">快递</a>
+              <a href="#/solution">快运</a>
+              <a href="#/solution#O2O">O2O</a>
+              <a href="#/solution">移动</a>
             </div>
             <div class="link-group">
               <div class="link-header">关于我们</div>
