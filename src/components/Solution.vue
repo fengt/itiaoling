@@ -1,19 +1,31 @@
 <template>
   <div class="solution">
 
-    <div class="solution-wrapper">
-      <Nav/>
+    <div class="solution-header">
+      <Nav/> 
+
+      <div class="container">
+        <h1>传统企业互联网转型<br>全套IT解决方案</h1>
+      </div>
+
+    </div>
+
+
+    <div class="solution-body">
       
-      <h1>立志于为传统企业提供互联网转型的全套IT解决方案</h1>
       <div class="container">
 
         <div class="solution-icon-all">
           <div class="container">
-            <div class="solution-header">
-              <p class="desc">全套解决方案</p>
+            <div class="solution-icon-title">
+              <p class="desc">立志于为传统企业提供互联网转型的全套IT解决方案</p>
             </div>
 
             <div class="row">
+              <div class="col-md-4 col-xs-6">
+                <img class="solution-item-img" src="../assets/images/products/common/safe.png" alt="solution-icon">
+                <h2>仓配一体</h2>
+              </div>
               <div class="col-md-4 col-xs-6">
                 <img class="solution-item-img" src="../assets/images/products/common/safe.png" alt="solution-icon">
                 <h2>快递</h2>
@@ -22,20 +34,16 @@
                 <img class="solution-item-img" src="../assets/images/products/common/safe.png" alt="solution-icon">
                 <h2>快运</h2>
               </div>
-              <div class="col-md-4 col-xs-6">
-                <img class="solution-item-img" src="../assets/images/products/common/safe.png" alt="solution-icon">
-                <h2>O2O</h2>
-              </div>
             </div>
 
             <div class="row">
               <div class="col-md-4 col-xs-6">
                 <img class="solution-item-img" src="../assets/images/products/common/safe.png" alt="solution-icon">
-                <h2>移动</h2>
+                <h2>O2O</h2>
               </div>
               <div class="col-md-4 col-xs-6">
                 <img class="solution-item-img" src="../assets/images/products/common/safe.png" alt="solution-icon">
-                <h2>仓配一体</h2>
+                <h2>移动</h2>
               </div>
             </div>
 
@@ -53,6 +61,23 @@
               <img src="../assets/images/solution-example.png" alt="">
             </div>
             <div class="intro-content">
+              <span class="intro-title">仓配一体</span>
+              <p>在行业领先仓储信息系统以及完善的仓储服务基础上，整合配送业务、配送资源，并结合强大的系统承载能力，打通了商品从存储到订单信息流入、商品拣货配货、打包再到分拣出库、末端配送，以及商品逆向流通的一整套流程和服务。用计算机信息系统最大限度的支持仓配一体管理信息的处理，充分发挥人机协同的功效，提高效率，减少错误，使管理人员可以及时地了解每一个环节的状况和问题。
+  </p><p>
+  跳羚科技自主研发的仓储物流系统和配送平台的系统搭建始于2007年，专注于电子商务模式下的仓储配送。每日商品出库750万件、系统500万单、存储5000万件；库存差异率低于万分之六；经历多年双十一洗礼，具备超强的大促应对能力。
+  </p><p>
+  长期的运营积累了丰富的经验，已经形成了规模效应，可大大提高运营效率，降低运营成本。可为电商和传统企业提供从订单生产处理、库存管理，到退货逆向物流、作业报表监控、流程服务持续改进、结算对账、多平台信息对接等的系统解决方案和服务，并为转型互联网的传统企业提供整套互联网仓配一体解决方案。可给客户提供高标准、高质量、多样化、全方位的个性化服务。</p>
+            </div>
+          </div>
+        </div>
+
+
+
+          <div class="solt-intro-item clearfix">
+            <div class="intro-img intro-right">
+              <img src="../assets/images/solution-example.png" alt="">
+            </div>
+            <div class="intro-content">
               <span class="intro-title">快递</span>
               <p>快递是物流的一种形态，与传统物流不同的是：物流的核心要素是仓储、运输和包装；而快递则是一种个性化精益物流服务，更重视速度。为了“快”，它必须综合运用各种运输方式，辅以网络化的区域机构。快递主要面向散单，其特点是物品相对较小、品种多、中间经过的环节多。所以相对于传统物流行业来说快递对于系统的支持要求是更加多样化的，支持更多的个性化的服务。
   </p><p>
@@ -63,7 +88,7 @@
 
 
           <div class="solt-intro-item clearfix">
-            <div class="intro-img intro-right">
+            <div class="intro-img intro-left">
               <img src="../assets/images/solution-example.png" alt="">
             </div>
             <div class="intro-content">
@@ -78,8 +103,8 @@
 
 
 
-          <div class="solt-intro-item clearfix">
-            <div class="intro-img intro-left">
+          <div id="O2O" class="solt-intro-item clearfix">
+            <div class="intro-img intro-right">
               <img src="../assets/images/solution-example.png" alt="">
             </div>
             <div class="intro-content">
@@ -99,7 +124,7 @@
 
 
           <div class="solt-intro-item clearfix">
-            <div class="intro-img intro-right">
+            <div class="intro-img intro-left">
               <img src="../assets/images/solution-example.png" alt="">
             </div>
             <div class="intro-content">
@@ -115,24 +140,6 @@
           </div>
 
 
-
-          <div class="solt-intro-item clearfix">
-            <div class="intro-img intro-left">
-              <img src="../assets/images/solution-example.png" alt="">
-            </div>
-            <div class="intro-content">
-              <span class="intro-title">仓配一体</span>
-              <p>在行业领先仓储信息系统以及完善的仓储服务基础上，整合配送业务、配送资源，并结合强大的系统承载能力，打通了商品从存储到订单信息流入、商品拣货配货、打包再到分拣出库、末端配送，以及商品逆向流通的一整套流程和服务。用计算机信息系统最大限度的支持仓配一体管理信息的处理，充分发挥人机协同的功效，提高效率，减少错误，使管理人员可以及时地了解每一个环节的状况和问题。
-  </p><p>
-  跳羚科技自主研发的仓储物流系统和配送平台的系统搭建始于2007年，专注于电子商务模式下的仓储配送。每日商品出库750万件、系统500万单、存储5000万件；库存差异率低于万分之六；经历多年双十一洗礼，具备超强的大促应对能力。
-  </p><p>
-  长期的运营积累了丰富的经验，已经形成了规模效应，可大大提高运营效率，降低运营成本。可为电商和传统企业提供从订单生产处理、库存管理，到退货逆向物流、作业报表监控、流程服务持续改进、结算对账、多平台信息对接等的系统解决方案和服务，并为转型互联网的传统企业提供整套互联网仓配一体解决方案。可给客户提供高标准、高质量、多样化、全方位的个性化服务。</p>
-            </div>
-          </div>
-
-
-        </div>
-        
 
 
 
@@ -154,17 +161,46 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/scss/utils.scss";
-.solution-wrapper{
-  h1 {
-    background-image: linear-gradient(45deg, #ebc360, #fc5f3a);
-    background-size: cover;
+
+/*header bar && picture*/
+.solution-header{
+  background-image: linear-gradient(120deg, #fc5f3a, #ebc360);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+
+  .container{
+    height: 100%;
+    background-image: url(../assets/images/solution/solution_banner.png);
     background-repeat: no-repeat;
-    margin: 0;
-    padding: 200px 20px 200px;
-    text-align: center;
-    line-height: 1.2;
-    color: rgba(255, 0, 0, 0.27);
+    background-size: 22%;
+    background-position: 85% 60%;
+    @media (max-width: 767px){
+      background-position: 50% 95%;
+      background-size: 40%;
+    }
+  }
+
+  h1 {
+    margin-top: 270px;
+    margin-bottom: 10px;
+    padding-left: 10%;
+    text-align: left;
+    line-height: 1.5;
+    color: #fff;
+    float: left;
+    @media (max-width: 767px){
+      margin-top: 150px;
+      text-align: center;
+      padding-left: 0;
+      float: none;
+    }
+  }
+  img{
+    margin-top: 40px;
+    margin-left: 10%;
+    width: 22%;
   }
 }
 
@@ -177,6 +213,7 @@ export default {
     font-weight: 500;
     text-align: center;
     line-height: 1.55em;
+    margin-bottom: 60px;
   }
   .container{
     h2{
