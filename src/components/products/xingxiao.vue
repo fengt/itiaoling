@@ -59,7 +59,7 @@
               </div>
             </div>
             <div class="col-sx-12 col-sm-6 col-md-6 feature-intro-image">
-              <img src="../../assets/images/products/xingxiao/xingxiao_show.png">
+              <img src="../../assets/images/products/xingxiao/crm_pic.png">
             </div>
           </div>
         </div>
@@ -75,7 +75,7 @@
               </div>
             </div>
             <div class="col-sx-12 col-sm-6 col-md-6 feature-intro-image">
-              <img src="../../assets/images/products/xingxiao/xingxiao_show.png">
+              <img src="../../assets/images/products/xingxiao/record_pic.png">
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@
               </div>
             </div>
             <div class="col-sx-12 col-sm-6 col-md-6 feature-intro-image">
-              <img src="../../assets/images/products/xingxiao/xingxiao_show.png">
+              <img src="../../assets/images/products/xingxiao/analyse_pic.png">
             </div>
           </div>
         </div>
@@ -196,7 +196,6 @@ export default {
       height: 300px;
       right: 0;
       left: 22%;
-      top: 11%;
       text-align: left;
       max-width: 360px;
       line-height: 2em;
@@ -206,7 +205,6 @@ export default {
         margin: 30px auto;
         padding: 0 30px;
         left: 0;
-        top: -20%;
         max-width: 90%;
       }
     }
