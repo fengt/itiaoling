@@ -197,11 +197,6 @@ export default {
       float: none;
     }
   }
-  img{
-    margin-top: 40px;
-    margin-left: 10%;
-    width: 22%;
-  }
 }
 
 

@@ -85,7 +85,7 @@
       </div>
 
 
-      <div class="about-img"><img src="../assets/images/about/about_tiaoling_pics.png" alt="tiaoling"></div>
+      <div class="about-img container"><img src="../assets/images/about/about_tiaoling_pics.png" alt="tiaoling"></div>
     </div>
 
     <FootWrap/>
@@ -100,17 +100,45 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-@import "../assets/scss/break.scss";
+/*header bar && picture*/
 .about-header{
-  min-height: 460px;
   background-color: #1f1b43;
-  h1{
-    margin-top: 160px;
+  height: 460px;
+  width: 100%;
+
+  .container{
+    height: 100%;
+    background-image: url(../assets/images/china_map.png), url(../assets/images/china_map.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 95% 70%;
+    @media (max-width: 767px){
+      background-position: 50% 95%;
+      background-size: 95%;
+    }
+  }
+
+  h1 {
+    margin-top: 180px;
+    margin-bottom: 10px;
+    padding-left: 10%;
+    text-align: left;
+    line-height: 1.8;
     color: #f8f8f8;
+    float: left;
+    @media (max-width: 767px){
+      margin-top: 150px;
+      text-align: center;
+      padding-left: 0;
+      float: none;
+    }
   }
 }
 
 
+
+
+/*跳羚科技简介*/
 .about-content{
   margin: 80px auto 50px;
   .container p{
@@ -125,7 +153,7 @@ export default {
   }
   .about-img{
     img{
-      width: 85%;
+      width: 90%;
     }
   }
 }
@@ -170,6 +198,9 @@ export default {
     max-width: 1120px;
     padding-top: 50px;
     padding-bottom: 70px;
+    @media (max-width: 767px){
+      padding-top: 0;
+    }
   }
 
   .news{
@@ -182,6 +213,11 @@ export default {
     padding: 20px 30px;
     -webkit-box-shadow: 0 15px 30.5px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 15px 30.5px 0 rgba(0, 0, 0, 0.1);
+    @media (max-width: 767px){
+      width: 100%;
+      margin: 80px auto 0 auto;
+      text-align: center;
+    }
     .m-time {
       font-size: 18px;
       font-weight: 600;
@@ -203,6 +239,9 @@ export default {
   .news-left{
     float: left;
     margin-right: 60%;
+    @media (max-width: 767px){
+      float: none;
+    }
   }
 
 
@@ -222,6 +261,9 @@ export default {
     width: 25%;
     max-width: 117px;
     top: 48px;
+    @media (max-width: 767px){
+      content: none;
+    }
   }
   .news-left:before{
     right: -25%;
@@ -238,12 +280,20 @@ export default {
     width: 10px;
     border-radius: 5px;
     top: 44px;
+    @media (max-width: 767px){
+      background-color: #ccc;
+      left: 49%;
+      top: 170px;
+    }
   }
   .news-left:after{
     right: -26%;
   }
   .news-right:after{
     left: -26%;
+    @media (max-width: 767px){
+      left: 49%;
+    }
   }
 
   .mid-line{
@@ -254,6 +304,11 @@ export default {
     top: 100px;
     background-color: #e1e2e4;
     z-index: -1;
+    @media (max-width: 767px){
+      height: 100%;
+      top: 150px;
+      height: 1470px;
+    }
   }
 }
 
