@@ -147,13 +147,13 @@ export default {
     margin-right: 20%;
     display: inline-block;
     vertical-align: middle;
+    color: #fff;
     @media screen and (max-width: 767px){
       display: block;
       text-align: center;
       margin-right: auto;
     }
     .content-desc{
-      opacity: 0.7;
       font-size: 20px;
       margin: 10px 0 50px;
     }

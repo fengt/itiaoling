@@ -124,13 +124,13 @@ export default {
     margin-right: 20%;
     display: inline-block;
     vertical-align: middle;
+    color: #fff;
     @media screen and (max-width: 767px){
       display: block;
       text-align: center;
       margin-right: auto;
     }
     .content-desc{
-      opacity: 0.7;
       font-size: 20px;
       margin: 10px 0 50px;
     }
@@ -142,6 +142,7 @@ export default {
       padding: 10px 20px;
       border-radius: 2px;
       font-size: 14px;
+      font-weight: 500;
       display: inline-block;
       text-align: center;
       width: 130px;
@@ -196,7 +197,6 @@ export default {
       height: 300px;
       right: 0;
       left: 22%;
-      // top: 11%;
       text-align: left;
       max-width: 360px;
       line-height: 2em;
@@ -206,7 +206,6 @@ export default {
         margin: 30px auto;
         padding: 0 30px;
         left: 0;
-        // top: -20%;
         max-width: 90%;
       }
     }

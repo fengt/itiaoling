@@ -25,7 +25,7 @@
     </div>
 
     <div class="feature-list">
-      <h1>安全认证体系保障，订单运输时效监控，高可用系统和多业务模式支持，商家无缝对接</h1>
+      <h1>安全认证体系保障，订单运输时效监控<br>高可用系统和多业务模式支持，商家无缝对接</h1>
 
       <div class="container">
         <div class="row">
@@ -166,13 +166,13 @@ export default {
     margin-right: 20%;
     display: inline-block;
     vertical-align: middle;
+    color: #fff;
     @media screen and (max-width: 767px){
       display: block;
       text-align: center;
       margin-right: auto;
     }
     .content-desc{
-      opacity: 0.7;
       font-size: 20px;
       margin: 10px 0 50px;
     }
