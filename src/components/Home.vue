@@ -79,10 +79,10 @@
 	      </div>
 	      <div class="row customer-list-all">
 	      	<div class="col-md-4 col-xs-6">
-	      		<img class="customer-item-img" src="../assets/images/customers/vancl.jpg" alt="">
+	      		<img class="customer-item-img" src="../assets/images/customers/guangxizhongyan.png" alt="">
 	      	</div>
 	      	<div class="col-md-4 col-xs-6">
-	      		<img class="customer-item-img" src="../assets/images/customers/rufengda.jpg" alt="">
+	      		<img class="customer-item-img" src="../assets/images/customers/rufengda.png" alt="">
 	      	</div>
 	      	<div class="col-md-4 col-xs-6">
 	      		<img class="customer-item-img" src="../assets/images/customers/zhongce.jpg" alt="">
@@ -94,7 +94,7 @@
 	      		<img class="customer-item-img" src="../assets/images/customers/tiandihuayu.gif" alt="">
 	      	</div>
 	      	<div class="col-md-4 col-xs-6">
-	      		<img class="customer-item-img" src="../assets/images/customers/wjk.jpg" alt="">
+	      		<img class="customer-item-img" src="../assets/images/customers/wanjiakang.png" alt="">
 	      	</div>
 	      </div>
 	     </div>
