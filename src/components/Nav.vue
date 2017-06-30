@@ -32,7 +32,7 @@
         </li>
       </ul>
 
-      <ul class="nav-sm visible-sm visible-xs" :class="{toggle: isToggle}">
+      <!-- <ul class="nav-sm visible-sm visible-xs" :class="{toggle: isToggle}">
         <li>    
           <a href="#/ddhy">产品中心</a>
         </li>
@@ -42,7 +42,27 @@
         <li>    
           <a href="#/about">关于我们</a>
         </li>
-      </ul>
+      </ul> -->
+      <div class="nav-sm visible-sm visible-xs" :class="{toggle: isToggle}">
+        <div class="container">
+          <div class="nav-sm-row row">
+            <div class="col-xs-7 col-sm-7 menu-left">
+              <a class="menu-item" href="#/fengyun"><div><img src="../assets/images/products/logo/fengyun_active.png" alt="风云系统"><span>风云系统</span></div></a>
+              <a class="menu-item" href="#/feiyu"><div><img src="../assets/images/products/logo/feiyu_active.png" alt="飞鱼配送"><span>飞鱼配送</span></div></a>
+              <a class="menu-item" href="#/ddhy"><div><img src="../assets/images/products/logo/dudu_active.png" alt="嘟嘟好运"><span>嘟嘟好运</span></div></a>
+              <a class="menu-item" href="#/huashifu"><div><img src="../assets/images/products/logo/huashifu_active.png" alt="华师傅"><span>华师傅</span></div></a>
+              <a class="menu-item" href="https://wms.itiaoling.com" target="_blank"><div><img src="../assets/images/products/logo/wms_active.png" alt="WMS"><span>WMS</span></div></a>
+              <a class="menu-item" href="#/xingxiao"><div><img src="../assets/images/products/logo/xingxiao_active.png" alt="行销"><span>行销</span></div></a>
+              <a class="menu-item" href="#/jisong"><div><img src="../assets/images/products/logo/jisong_active.png" alt="极送"><span>极送</span></div></a>
+            </div>
+            <div class="col-xs-5 col-sm-5 menu-right">
+              <!-- <a class="menu-item" href="javascript:void(0);">产品中心</a> -->
+              <a class="menu-item" href="#/solution">解决方案</a>
+              <a class="menu-item" href="#/about">关于我们</a>
+            </div>
+          </div>
+        </div>
+      </div>
       
       <ul class="nav-left visible-sm visible-xs">
         <li>    
@@ -222,7 +242,7 @@ li {
 }
 
 
-/*悬浮下拉菜单*/
+/*悬浮下拉菜单（大屏）*/
 .products{
   position: relative;
   &:hover .sub-product{
@@ -258,6 +278,32 @@ li {
   }
 }
 
+/*悬浮下拉菜单（小屏）*/
+// @media (max-width: 375px)
+.nav-sm-row{
+  margin-bottom: 20px;
+}
+.menu-left {
+  border-right: 1px solid rgba(0,0,0,.15);
+}
+.menu-item {
+  color: #65697f;
+  display: block;
+  font-size: 16px;
+  div{
+    text-align: left;
+    width: 120px;
+    display: inline-block;
+  }
+  img{
+    width: 25px;
+    margin-right: 12px;
+    vertical-align: middle;
+  }
+  span{
+    vertical-align: middle;
+  }
+}
 
 </style>
 
