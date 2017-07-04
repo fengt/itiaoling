@@ -145,9 +145,15 @@ export default {
     text-align: center;
     line-height: 1.55em;
     margin-bottom: 80px;
+    @media (max-width: 767px) {
+      padding: 0 10%;
+    }
   }
   .container{
     width: 60%;
+    @media (max-width: 767px) {
+      width: 100%;
+    }
     h2{
       font-size: 20px;
       font-weight: 400;
@@ -165,28 +171,36 @@ export default {
     position: relative;
     .row > div{
       position: relative;
-      height: 400px;
-      @media (max-width: 767px){
-        height: 250px;
+      height: 350px;
+      @media (max-width: 1200px){
+        height: 300px;
+      }
+      @media (max-width: 992px){
+        // height: 300px;
+      }
+      @media (max-width: 576px){
+        height: 230px;
       }
     }
     .intro{
       position: absolute;
       bottom: 0;
       margin: auto;
-      height: 300px;
+      top: 120px;
       right: 0;
       left: 22%;
       text-align: left;
       max-width: 360px;
       line-height: 2em;
-      @media (max-width: 767px){
-        height: 250px;
+      @media (max-width: 1200px){
+        top: 80px;
+      }
+      @media (max-width: 768px){
+        top: 20px;
         text-align: center;
-        margin: 30px auto;
+        margin: auto;
         padding: 0 30px;
         left: 0;
-        max-width: 90%;
       }
     }
     .text-right{
@@ -201,7 +215,13 @@ export default {
   }
 
   img{
-    width: 80%;
+    width: 70%;
+    @media (max-width: 992px){
+      width: 100%;
+    }
+    @media (max-width: 576px){
+      width: 250px;
+    }
   }
 }
 

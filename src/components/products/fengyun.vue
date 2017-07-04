@@ -29,7 +29,13 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-xs-6 col-sm-4 col-md-4">
+          <div class="col-xs-12 col-sm-4 col-md-4 visible-xs">
+            <img src="../../assets/images/products/common/safe.png" alt="" class="feature-icon">
+            <h2>安全认证体系</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-4 hidden-xs">
             <img src="../../assets/images/products/common/safe.png" alt="" class="feature-icon">
             <h2>安全认证体系</h2>
           </div>
@@ -41,8 +47,6 @@
             <img src="../../assets/images/products/common/setting.png" alt="" class="feature-icon">
             <h2>高可用系统</h2>
           </div>
-        </div>
-        <div class="row">
           <div class="col-xs-6 col-sm-4 col-md-4">
             <img src="../../assets/images/products/common/multiplate.png" alt="" class="feature-icon">
             <h2>多业务模式</h2>
@@ -81,7 +85,7 @@
             <div class="col-sx-12 col-sm-6 col-md-6 text-right">
               <div class="intro">
                 <h2>运输时效监控</h2>
-                <p>订单来源分析、订单去向分析；商家单量分析、历史订单分析；总成本监控、各部门成本监控、商家收入分析、利润分析；分拣效率监控、运输效率监控、站点效率监控。</p>
+                <p>订单来源、订单去向和历史订单分析；商家单量和商家收入及利润分析；各部门成本及总成本监控；站点、分拣和运输效率监控等。</p>
               </div>
             </div>
             <div class="col-sx-12 col-sm-6 col-md-6 feature-intro-image">
@@ -167,7 +171,7 @@ export default {
     display: inline-block;
     vertical-align: middle;
     color: #fff;
-    @media screen and (max-width: 767px){
+    @media (max-width: 767px){
       display: block;
       text-align: center;
       margin-right: auto;
@@ -192,6 +196,10 @@ export default {
 
   img{
     vertical-align: middle;
+    width: 50%;
+    @media (max-width: 767px){
+      width: 80%;
+    }
   }
 
 }
@@ -206,9 +214,15 @@ export default {
     text-align: center;
     line-height: 1.55em;
     margin-bottom: 80px;
+    @media (max-width: 767px){
+      padding: 0 10%;
+    }
   }
   .container{
     width: 60%;
+    @media (max-width: 767px){
+      width: 100%;
+    }
     h2{
       font-size: 20px;
       font-weight: 400;
@@ -224,30 +238,38 @@ export default {
     padding: 40px 0;
     overflow: hidden;
     position: relative;
-    .row > div{
+    .row > div {
       position: relative;
-      height: 400px;
-      @media (max-width: 767px){
-        height: 250px;
+      height: 350px;
+      @media (max-width: 1200px){
+        height: 300px;
+      }
+      @media (max-width: 992px){
+        // height: 300px;
+      }
+      @media (max-width: 576px){
+        height: 230px;
       }
     }
     .intro{
       position: absolute;
       bottom: 0;
       margin: auto;
-      height: 300px;
+      top: 120px;
       right: 0;
       left: 22%;
       text-align: left;
       max-width: 360px;
       line-height: 2em;
-      @media (max-width: 767px){
-        height: 250px;
+      @media (max-width: 1200px){
+        top: 80px;
+      }
+      @media (max-width: 768px){
+        top: 40px;
         text-align: center;
-        margin: 30px auto;
+        margin: auto;
         padding: 0 30px;
         left: 0;
-        max-width: 90%;
       }
     }
     .text-right{
@@ -262,7 +284,13 @@ export default {
   }
 
   img{
-    width: 80%;
+    width: 70%;
+    @media (max-width: 992px){
+      width: 100%;
+    }
+    @media (max-width: 576px){
+      width: 250px;
+    }
   }
 }
 
