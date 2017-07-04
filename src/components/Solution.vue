@@ -241,6 +241,7 @@ export default {
   p{
     font-size: 16px;
     text-align: left;
+    text-indent: 30px;
     line-height: 2;
     color: #383963;
   }

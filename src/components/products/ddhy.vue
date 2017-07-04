@@ -11,12 +11,12 @@
            <div class="content-down">
                <div>司机版:</div>
                <a href="https://itunes.apple.com/cn/app/id942390312?mt=8" target="_blank">IOS 下载</a>
-               <a href="../resources/ddhy.apk" target="_blank">Android 下载</a>
+               <a href="/static/ddhy.apk" target="_blank">Android 下载</a>
            </div>
            <div class="content-down">
                <div>运货主版:</div>
                <a href="https://itunes.apple.com/cn/app/id1067688835?mt=8" target="_blank">IOS 下载</a>
-               <a href="../resources/dudu.apk" target="_blank">Android 下载</a>
+               <a href="/static/dudu.apk" target="_blank">Android 下载</a>
            </div>
         </div>
         <img class="content-img" src="../../assets/images/products/ddhy/product_dodo.png">

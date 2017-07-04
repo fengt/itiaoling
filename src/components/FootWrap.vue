@@ -16,31 +16,31 @@
             </div>
 
             <div class="col-md-10 location">
-              <div class="telephone">
-                  电话:
-                  +86-17761300790
-              </div>
               <div class="address">
                   成都:
                   高新区天仁路388号凯德天府写字楼9F1号（总部）<br>
               </div>
-
               <div class="telephone">
                   电话:
-                  010-59316526
+                  +86-17761300790
               </div>
+              
               <div class="address">
                   北京:
                   北京市大兴区亦庄经济区地盛北街1号<br>
               </div>
-              
               <div class="telephone">
                   电话:
-                  021-62636097
+                  010-59316526
               </div>
+              
               <div class="address">
                   上海:
                   上海市闵行区华翔路2239号<br>
+              </div>
+              <div class="telephone">
+                  电话:
+                  021-62636097
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@
         </div>
 
 
-        <div class="col-xs-12 col-md-6 footer-navi hidden-xs">
+        <div class="col-xs-12 col-md-6 footer-navi hidden-md hidden-xs">
 
           <div class="row links">
             <div class="link-group">
@@ -103,7 +103,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/scss/grid.scss";
+// @import "../assets/scss/grid.scss";
 .footer {
   background-color: #383963;
   .container {

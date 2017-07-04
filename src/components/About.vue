@@ -240,7 +240,7 @@ export default {
     float: left;
     margin-right: 60%;
     @media (max-width: 767px){
-      float: none;
+      // float: none;
     }
   }
 
