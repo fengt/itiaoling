@@ -8,7 +8,7 @@
 
           <div class="row">
             <div class="logo-wrapper">
-              <img src="../assets/images/logo/logo-w.png" alt="tiaoling logo" class="logo">
+              <img src="../assets/images/logo/logo-w.png" alt="tiaoling logo" height="67" width="160" class="logo">
             </div>
 
             <div class="col-md-2 qr-code-wrapper hidden-md">

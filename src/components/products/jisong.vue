@@ -135,6 +135,7 @@ export default {
 
 <style lang="scss" scoped>
 .jisong-header{
+  background-color: #fc5f3a;
   background-image: linear-gradient(90deg, #ebc360, #fc5f3a);
   background-size: 100%;
   background-repeat: no-repeat;

@@ -136,6 +136,7 @@ export default {
 }
 .head-wrapper{
   min-height: 700px;
+  background-color: #fc5f3a;
   background-image: url(../assets/images/landing.png), linear-gradient(120deg, #ea5413, #F39800);
   background-size: cover;
   background-repeat: no-repeat;

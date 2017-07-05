@@ -164,6 +164,7 @@ export default {
 
 /*header bar && picture*/
 .solution-header{
+  background-color: #fc5f3a;
   background-image: linear-gradient(120deg, #fc5f3a, #ebc360);
   background-size: cover;
   background-repeat: no-repeat;

@@ -15,13 +15,20 @@
         <li class="products">    
           <a href="javascript:void(0);">产品中心</a>
           <div class="sub-product">
-            <a class="product-item" href="#/fengyun"><img src="../assets/images/products/logo/fengyun_active.png" alt="风云系统"><h2>风云系统</h2></a>
-            <a class="product-item" href="#/feiyu"><img src="../assets/images/products/logo/feiyu_active.png" alt="飞鱼配送"><h2>飞鱼配送</h2></a>
-            <a class="product-item" href="#/ddhy"><img src="../assets/images/products/logo/dudu_active.png" alt="嘟嘟好运"><h2>嘟嘟好运</h2></a>
-            <a class="product-item" href="#/huashifu"><img src="../assets/images/products/logo/huashifu_active.png" alt="华师傅"><h2>华师傅</h2></a>
-            <a class="product-item" href="https://wms.itiaoling.com" target="_blank"><img src="../assets/images/products/logo/wms_active.png" alt="WMS"><h2>WMS</h2></a>
-            <a class="product-item" href="#/xingxiao"><img src="../assets/images/products/logo/xingxiao_active.png" alt="行销"><h2>行销</h2></a>
-            <a class="product-item" href="#/jisong"><img src="../assets/images/products/logo/jisong_active.png" alt="极送"><h2>极送</h2></a>
+            <a class="product-item" href="#/fengyun">
+              <img height="40" width="40" src="../assets/images/products/logo/fengyun_active.png" alt="风云系统"><h2>风云系统</h2></a>
+            <a class="product-item" href="#/feiyu">
+              <img height="40" width="40" src="../assets/images/products/logo/feiyu_active.png" alt="飞鱼配送"><h2>飞鱼配送</h2></a>
+            <a class="product-item" href="#/ddhy">
+              <img height="40" width="40" src="../assets/images/products/logo/dudu_active.png" alt="嘟嘟好运"><h2>嘟嘟好运</h2></a>
+            <a class="product-item" href="#/huashifu">
+              <img height="40" width="40" src="../assets/images/products/logo/huashifu_active.png" alt="华师傅"><h2>华师傅</h2></a>
+            <a class="product-item" href="https://wms.itiaoling.com" target="_blank">
+              <img height="40" width="40" src="../assets/images/products/logo/wms_active.png" alt="WMS"><h2>WMS</h2></a>
+            <a class="product-item" href="#/xingxiao">
+              <img height="40" width="40" src="../assets/images/products/logo/xingxiao_active.png" alt="行销"><h2>行销</h2></a>
+            <a class="product-item" href="#/jisong">
+              <img height="40" width="40" src="../assets/images/products/logo/jisong_active.png" alt="极送"><h2>极送</h2></a>
           </div>
         </li>
         <li>    
@@ -47,13 +54,20 @@
         <div class="container">
           <div class="nav-sm-row row">
             <div class="col-xs-7 col-sm-7 menu-left">
-              <a class="menu-item" href="#/fengyun"><div><img src="../assets/images/products/logo/fengyun_active.png" alt="风云系统"><span>风云系统</span></div></a>
-              <a class="menu-item" href="#/feiyu"><div><img src="../assets/images/products/logo/feiyu_active.png" alt="飞鱼配送"><span>飞鱼配送</span></div></a>
-              <a class="menu-item" href="#/ddhy"><div><img src="../assets/images/products/logo/dudu_active.png" alt="嘟嘟好运"><span>嘟嘟好运</span></div></a>
-              <a class="menu-item" href="#/huashifu"><div><img src="../assets/images/products/logo/huashifu_active.png" alt="华师傅"><span>华师傅</span></div></a>
-              <a class="menu-item" href="https://wms.itiaoling.com" target="_blank"><div><img src="../assets/images/products/logo/wms_active.png" alt="WMS"><span>WMS</span></div></a>
-              <a class="menu-item" href="#/xingxiao"><div><img src="../assets/images/products/logo/xingxiao_active.png" alt="行销"><span>行销</span></div></a>
-              <a class="menu-item" href="#/jisong"><div><img src="../assets/images/products/logo/jisong_active.png" alt="极送"><span>极送</span></div></a>
+              <a class="menu-item" href="#/fengyun">
+                <div><img height="25" width="25" src="../assets/images/products/logo/fengyun_active.png" alt="风云系统"><span>风云系统</span></div></a>
+              <a class="menu-item" href="#/feiyu">
+                <div><img height="25" width="25" src="../assets/images/products/logo/feiyu_active.png" alt="飞鱼配送"><span>飞鱼配送</span></div></a>
+              <a class="menu-item" href="#/ddhy">
+                <div><img height="25" width="25" src="../assets/images/products/logo/dudu_active.png" alt="嘟嘟好运"><span>嘟嘟好运</span></div></a>
+              <a class="menu-item" href="#/huashifu">
+                <div><img height="25" width="25" src="../assets/images/products/logo/huashifu_active.png" alt="华师傅"><span>华师傅</span></div></a>
+              <a class="menu-item" href="https://wms.itiaoling.com" target="_blank">
+                <div><img height="25" width="25" src="../assets/images/products/logo/wms_active.png" alt="WMS"><span>WMS</span></div></a>
+              <a class="menu-item" href="#/xingxiao">
+                <div><img height="25" width="25" src="../assets/images/products/logo/xingxiao_active.png" alt="行销"><span>行销</span></div></a>
+              <a class="menu-item" href="#/jisong">
+                <div><img height="25" width="25" src="../assets/images/products/logo/jisong_active.png" alt="极送"><span>极送</span></div></a>
             </div>
             <div class="col-xs-5 col-sm-5 menu-right">
               <!-- <a class="menu-item" href="javascript:void(0);">产品中心</a> -->
@@ -122,8 +136,7 @@ export default {
     },
     handleScroll () {
       this.isToggle = false
-      const sy = window.scrollY
-      // console.log(`${window.scrollY}`)
+      const sy = typeof window.scrollY === 'undefined' ? window.pageYOffset : window.scrollY
       if (sy > 20) {
         this.changeBar = true
       } else {
@@ -259,9 +272,12 @@ li {
     border: 1px solid rgba(0,0,0,.15);
     box-shadow: 0 6px 12px rgba(0,0,0,.175);
     left: -50px;
-    left: calc(-50px);
     text-align: center;
-
+    @media (max-width: 768px) {
+      width: 380px;
+      height: 150px;
+      overflow: auto;
+    }
     .product-item {
       padding: 20px;
       color: #65697f;
@@ -303,6 +319,11 @@ li {
   span{
     vertical-align: middle;
   }
+}
+
+/*ie9: remove image border*/
+img {
+  border: none;
 }
 
 </style>
