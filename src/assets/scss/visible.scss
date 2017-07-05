@@ -43,4 +43,11 @@ $breakpoints: $grid-breakpoints;
   }
 }
 
+.visible-md{
+  display: none; 
+  @media (min-width: 0) and (max-width: $md) {
+    display: block; 
+  }
+}
+
 
