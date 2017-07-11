@@ -57,7 +57,7 @@
               <a href="#/feiyu">飞鱼配送</a>
               <a href="#/ddhy">嘟嘟好运</a>
               <a href="#/huashifu">华师傅</a>
-              <a href="https://wms.itiaoling.com" target="_blank">WMS</a>
+              <a href="#/wms">WMS</a>
               <a href="#/xingxiao">行销</a>
               <a href="#/jisong">极送</a>
             </div>

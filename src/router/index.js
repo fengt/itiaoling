@@ -9,6 +9,7 @@ import ddhy from '@/components/products/ddhy'
 import feiyu from '@/components/products/feiyu'
 import fengyun from '@/components/products/fengyun'
 import huashifu from '@/components/products/huashifu'
+import wms from '@/components/products/wms'
 import jisong from '@/components/products/jisong'
 import xingxiao from '@/components/products/xingxiao'
 
@@ -41,6 +42,11 @@ export default new Router({
       path: '/huashifu',
       name: 'huashifu',
       component: huashifu
+    },
+    {
+      path: '/wms',
+      name: 'wms',
+      component: wms
     },
     {
       path: '/jisong',

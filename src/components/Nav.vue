@@ -23,7 +23,7 @@
               <img height="40" width="40" src="../assets/images/products/logo/dudu_active.png" alt="嘟嘟好运"><h2>嘟嘟好运</h2></a>
             <a class="product-item" href="#/huashifu">
               <img height="40" width="40" src="../assets/images/products/logo/huashifu_active.png" alt="华师傅"><h2>华师傅</h2></a>
-            <a class="product-item" href="https://wms.itiaoling.com" target="_blank">
+            <a class="product-item" href="#/wms">
               <img height="40" width="40" src="../assets/images/products/logo/wms_active.png" alt="WMS"><h2>WMS</h2></a>
             <a class="product-item" href="#/xingxiao">
               <img height="40" width="40" src="../assets/images/products/logo/xingxiao_active.png" alt="行销"><h2>行销</h2></a>
@@ -62,7 +62,7 @@
                 <div><img height="25" width="25" src="../assets/images/products/logo/dudu_active.png" alt="嘟嘟好运"><span>嘟嘟好运</span></div></a>
               <a class="menu-item" href="#/huashifu">
                 <div><img height="25" width="25" src="../assets/images/products/logo/huashifu_active.png" alt="华师傅"><span>华师傅</span></div></a>
-              <a class="menu-item" href="https://wms.itiaoling.com" target="_blank">
+              <a class="menu-item" href="#/wms">
                 <div><img height="25" width="25" src="../assets/images/products/logo/wms_active.png" alt="WMS"><span>WMS</span></div></a>
               <a class="menu-item" href="#/xingxiao">
                 <div><img height="25" width="25" src="../assets/images/products/logo/xingxiao_active.png" alt="行销"><span>行销</span></div></a>
