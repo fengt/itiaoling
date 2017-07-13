@@ -23,7 +23,7 @@
                <a href="../resources/dudu.apk" target="_blank">Android 下载</a>
            </div> -->
         </div>
-        <img class="content-img" src="../../assets/images/products/wms/05.png">
+        <img class="content-img" src="../../assets/images/products/wms/wms.png">
       </div>
 
     </div>

@@ -220,6 +220,7 @@ ul {
 }
 a {
   font-size: 18px;
+  font-weight: 500;
   color: #fff;
   &:hover{
     background-color: transparent;
