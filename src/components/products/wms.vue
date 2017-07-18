@@ -109,7 +109,7 @@
               </div>
             </div>
             <div class="col-sx-12 col-sm-6 col-md-6 feature-intro-image">
-              <img src="../../assets/images/products/wms/03.png">
+              <img class="manipulate-img" src="../../assets/images/products/wms/03.png">
             </div>
           </div>
         </div>
@@ -261,7 +261,7 @@ export default {
         // height: 300px;
       }
       @media (max-width: 576px){
-        height: 230px;
+        height: 235px;
       }
     }
     .intro{
@@ -307,6 +307,15 @@ export default {
   }
   .quick-deliver-img, .work-process-img {
     margin-top: 50px;
+  }
+  .manipulate-img {
+    width: 60%;
+    @media (max-width: 992px){
+      width: 85%;
+    }
+    @media (max-width: 576px){
+      width: 250px;
+    }
   }
 }
 

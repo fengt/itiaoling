@@ -11,7 +11,7 @@
               <img src="../assets/images/logo/logo-w.png" alt="tiaoling logo" height="67" width="160" class="logo">
             </div>
 
-            <div class="col-md-2 qr-code-wrapper hidden-md">
+            <div class="col-md-2 qr-code-wrapper">
               <img src="../assets/images/logo/qr-code.png" alt="tiaoling QR Code">
             </div>
 
@@ -154,6 +154,9 @@ export default {
   margin-top: -15px;
   img {
     width: 160px;
+    @media (max-width: 768px) {
+      margin-left: 40px;
+    }
   }
 }
 
@@ -163,7 +166,10 @@ export default {
   color: #e1e2e4;
   font-size: 14px;
   text-align: left;
-  padding-left: 30px;
+  padding-left: 40px;
+  @media (min-width: 768px) and (max-width: 992px) {
+    padding-left: 0;
+  }
 }
 
 .qr-code-wrapper {
@@ -171,6 +177,9 @@ export default {
   img {
     width: 90px;
     height: 90px;
+  }
+  @media (max-width: 992px) {
+    display: none;
   }
 }
 

@@ -275,14 +275,17 @@ li {
     left: -50px;
     text-align: center;
     @media (max-width: 768px) {
-      width: 380px;
-      height: 150px;
+      left: -100px;
+      width: 550px;
       overflow: auto;
     }
     .product-item {
       padding: 20px;
       color: #65697f;
       display: inline-block;
+      @media (max-width: 768px) {
+        padding: 10px;
+      }
       h2{
         font-size: 16px;
         margin: 2px 0 0;

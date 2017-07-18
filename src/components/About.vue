@@ -282,17 +282,17 @@ export default {
     top: 44px;
     @media (max-width: 767px){
       background-color: #ccc;
-      left: 49%;
+      left: 48.7%;
       top: 170px;
     }
   }
   .news-left:after{
-    right: -26%;
+    right: -26.7%;
   }
   .news-right:after{
-    left: -26%;
+    left: -25.9%;
     @media (max-width: 767px){
-      left: 49%;
+      left: 48.7%;
     }
   }
 
