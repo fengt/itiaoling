@@ -5,7 +5,7 @@
       <div class="container">
         <div class="landing">
           <h1 class="slogn">专注物流仓储互联网</h1>
-          <h2 class="slogn-desc">快递、快运、仓储、IT解决方案，加速企业效率，助力企业发展</h2>
+          <h2 class="slogn-desc">快递、快运、仓储、IT解决方案，提高企业效率，助力企业发展</h2>
         </div>
       </div>
 
@@ -20,11 +20,11 @@
             <div class="col-sx-12 col-sm-6 col-md-6">
               <div class="intro">
                 <h2>saas模块化定制</h2>
-                <p>WDS 自动线路规划分单，POI 地址库管理系统，TMS 运输分拣系统，DMS 配送管理系统，WMS 仓储管理系统，BI 财务报表系统，微信公众号／小程序／移动app，专业的调研制定个性化解决方案，合理的模块规划，降低企业成本，提高企业竞争力！</p>
+                <p>WDS 自动线路规划分单，POI 地址库管理系统，TMS 运输分拣系统，DMS 配送管理系统，WMS 仓储管理系统，BI 财务报表系统，微信公众号、小程序、移动app，专业的调研制定个性化解决方案，合理的模块规划，降低企业成本，提高企业竞争力。</p>
               </div>
             </div>
             <div class="col-sx-12 col-sm-6 col-md-6 feature-intro-image">
-              <img src="../assets/images/conversion.gif">
+              <img src="../assets/images/saas.png">
             </div>
           </div>
         </div>
@@ -37,11 +37,11 @@
             <div class="col-sx-12 col-sm-6 col-md-6 text-right">
               <div class="intro">
                 <h2>行业领先的技术研发</h2>
-                <p>立至于用互联网思维推动传统行业，团队成员核心来自于凡客，京东等电商O2O行业，行业技术经过十余年积累改善与沉淀，先拥有近300人研发团队，走向国际化市场，wms产品对接国外商户，得到合作客户高度认可！</p>
+                <p>立志于用互联网思维推动传统行业，团队成员核心来自于凡客，京东等电商O2O行业，行业技术经过十余年积累改善与沉淀，现拥有近300人研发团队，走向国际化市场，wms产品对接国外商户，得到合作客户高度认可。</p>
               </div>
             </div>
             <div class="col-sx-12 col-sm-6 col-md-6 feature-intro-image">
-              <img src="../assets/images/conversion.gif">
+              <img src="../assets/images/advance.png">
             </div>
           </div>
         </div>
@@ -54,11 +54,11 @@
             <div class="col-sx-12 col-sm-6 col-md-6">
               <div class="intro">
                 <h2>信息安全认证</h2>
-                <p>信息采取Https、md5及3DES加密等，服务器第四代防火墙，获得”国际化标准”信息安全认证(IOS9001、IOS27001)，特殊客户电话拨号加密，为客户的信息做到、保密、完整、可用。</p>
+                <p>采取Https/md5及3DES等技术加密信息，服务器应用第四代防火墙，获得国际化标准认证IOS9001和信息安全管理ISO27001，加密特殊客户电话拨号，保障客户信息安全、完整、可用。</p>
               </div>
             </div>
             <div class="col-sx-12 col-sm-6 col-md-6 feature-intro-image">
-              <img src="../assets/images/conversion.gif">
+              <img src="../assets/images/security.png">
             </div>
           </div>
         </div>
@@ -74,7 +74,7 @@
               </div>
             </div>
             <div class="col-sx-12 col-sm-6 col-md-6 feature-intro-image">
-              <img src="../assets/images/conversion.gif">
+              <img class="operation-img" src="../assets/images/operation.png">
             </div>
           </div>
         </div>
@@ -221,9 +221,18 @@ export default {
     @media (max-width: 992px){
       width: 100%;
     }
+    @media (max-width: 768px) {
+      margin-top: 30px;
+    }
     @media (max-width: 576px){
       width: 250px;
     }
+  }
+  .feature-intro-image {
+    margin-top: 20px;
+  }
+  .operation-img{
+    margin-top: -20px;
   }
 
 }
