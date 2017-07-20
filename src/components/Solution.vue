@@ -62,7 +62,7 @@
 
           <div class="solt-intro-item clearfix">
           <div class="intro-img intro-left">
-            <img src="../assets/images/solution-example.png" alt="">
+            <img src="../assets/images/solution/wms_pic.png" alt="wms">
           </div>
           <div class="intro-content">
             <span class="intro-title">仓配一体</span>
@@ -78,7 +78,7 @@
 
         <div class="solt-intro-item clearfix">
           <div class="intro-img intro-right">
-            <img src="../assets/images/solution-example.png" alt="">
+            <img src="../assets/images/solution/delivery_pic.png" alt="delivery">
           </div>
           <div class="intro-content">
             <span class="intro-title">快递</span>
@@ -92,7 +92,7 @@
 
         <div class="solt-intro-item clearfix">
           <div class="intro-img intro-left">
-            <img src="../assets/images/solution-example.png" alt="">
+            <img src="../assets/images/solution/express_pic.png" alt="express">
           </div>
           <div class="intro-content">
             <span class="intro-title">快运</span>
@@ -108,7 +108,7 @@
 
         <div id="O2O" class="solt-intro-item clearfix">
           <div class="intro-img intro-right">
-            <img src="../assets/images/solution-example.png" alt="">
+            <img src="../assets/images/solution/O2O_pic.png" alt="O2O">
           </div>
           <div class="intro-content">
             <span class="intro-title">O2O</span>
@@ -128,7 +128,7 @@ O2O全渠道转型升级已成为行业共识。虽然在过去的一年里O2O�
 
         <div class="solt-intro-item clearfix">
           <div class="intro-img intro-left">
-            <img src="../assets/images/solution-example.png" alt="">
+            <img src="../assets/images/solution/mobile_pic.png" alt="mobile">
           </div>
           <div class="intro-content">
             <span class="intro-title">移动</span>
@@ -256,6 +256,7 @@ export default {
     margin-right: 80px;
     @media (max-width: 768px){
       float: none;
+      margin-right: 0;
     }
     @media (max-width: 575px){
       margin-right: 0;
@@ -273,13 +274,10 @@ export default {
     text-align: left;
   }
   img{
-    width: 90%;
+    width: 100%;
     padding: 10%;
     @media (max-width: 768px){
-      width: 70%;
-    }
-    @media (max-width: 576px){
-      width: 80%;
+      width: 90%;
     }
   }
   .intro-content{
